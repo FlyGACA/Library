@@ -1,27 +1,53 @@
-# GACA Library
+# Fly GACA Library
 
-Welcome to the GACA Library, the central archive for the latest GACAR and AIP documents relevant to Saudi Arabian aviation, ensuring safety and regulatory adherence for industry professionals and aviation enthusiasts.
+Welcome to the Fly GACA Library, the curated resource for GACAR and AIP documents guiding aviation in Saudi Arabia, catering to both professionals and enthusiasts for utmost safety and compliance.
 
-## Content
+## Contents
 
-- **GACAR/**: Up-to-date General Authority for Civil Aviation Regulations.
-- **AIP/**: Current Aeronautical Information Publication documents.
+- **GACAR/**: Current General Authority for Civil Aviation Regulations.
+- **AIP/**: Aeronautical Information Publication documents.
 
-## Navigation
+## Access
 
-Browse or clone the repository for access. Tools for document parsing and navigation can be found within.
+Explore online or clone to your device. Utilize available tools for effective document searching.
 
-## Contributions
+## Engagement
 
-Contributions are welcome. Please refer to `CONTRIBUTING.md` for guidelines.
+See `CONTRIBUTING.md` for how to contribute.
 
-## License
+## Licensing
 
-This repository's contents are licensed. See `LICENSE` for details.
+Content is under a specific license. Check `LICENSE` for information.
 
-## Changes
+## Updates
 
-Refer to `CHANGELOG.md` for a record of updates.
+Document changes are tracked in `CHANGELOG.md`.
 
-*For official and current regulations, always consult the GACA.*
+*For the latest regulations, consult the GACA directly.*
 
+# مكتبة Fly GACA
+
+مرحبًا بكم في مكتبة Fly GACA، المصدر المنسق لوثائق GACAR و AIP التي توجه الطيران في السعودية، والتي تخدم المهنيين والهواة لتحقيق أقصى درجات السلامة والامتثال.
+
+## المحتويات
+
+- **GACAR/**: الأنظمة الحالية للهيئة العامة للطيران المدني.
+- **AIP/**: وثائق النشر المعلوماتي الجوي.
+
+## الوصول
+
+تصفح عبر الإنترنت أو انسخه إلى جهازك. استخدم الأدوات المتاحة للبحث الفعّال في الوثائق.
+
+## المشاركة
+
+راجع `CONTRIBUTING.md` لمعرفة كيفية المساهمة.
+
+## الترخيص
+
+المحتوى يخضع لترخيص محدد. تحقق من `LICENSE` للحصول على المعلومات.
+
+## التحديثات
+
+يتم تتبع تغييرات الوثائق في `CHANGELOG.md`.
+
+*للحصول على أحدث الأنظمة، يرجى مراجعة الهيئة العامة للطيران المدني مباشرةً.*
