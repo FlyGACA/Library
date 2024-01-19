@@ -1,0 +1,49 @@
+name: "CodeQL"
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  schedule:
+    - cron: '25 3 * * 4' # Scheduled to run every Thursday at 3:25 AM
+
+jobs:
+  analyze:
+    name: Analyze
+    runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
+    timeout-minutes: ${{ (matrix.language == 'swift' && 120) || 360 }}
+    
+    permissions:
+      security-events: write
+      actions: read
+      contents: read
+
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ 'javascript-typescript' ]
+        # Add or replace the languages you want to analyze from the CodeQL supported list
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v3
+      with:
+        languages: ${{ matrix.language }}
+        # Specify custom queries or config files if necessary
+
+    - name: Autobuild
+      uses: github/codeql-action/autobuild@v3
+      # If this step fails, remove it and use custom build commands
+
+    # If you need to provide custom build commands, uncomment and modify the following lines:
+    # - run: |
+    #     echo "Building the project..."
+    #     ./build_script.sh
+    # Replace "./build_script.sh" with the actual build command for your project.
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v3
